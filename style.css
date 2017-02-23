@@ -1,0 +1,243 @@
+    .parallax {
+        /* The image used */
+        background-image: url("imgs/large/rodbede-cabanossi.jpg");
+        /* Set a specific height */
+        height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax1 {
+        /* The image used */
+        background-image: url("imgs/large/dynryp.jpg");
+        /* Set a specific height */
+        height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+    }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("imgs/large/groggiroshorn.jpg");
+        /* Set a specific height */
+        height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+    }
+
+    .parallax3 {
+        /* The image used */
+        background-image: url("imgs/large/voda.jpg");
+        /* Set a specific height */
+        height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+    }
+
+    .parallax4 {
+        /* The image used */
+        background-image: url("imgs/large/bondeboller.jpg");
+        /* Set a specific height */
+        height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+    }
+    /** OVERSKRIFT OG TEKST **/
+
+    @media screen and (max-width: 800px) {
+        .overskrift .col-sm-12 h2 {
+            font-size: 70px;
+            top: 100px;
+        }
+    }
+
+    .overskrift h2 {
+        position: relative;
+        top: 50px;
+    }
+
+    h1 {
+        font-family: antic didone;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .modal-title {
+        font-family: antic didone;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .modal-header {
+        background-color: rgba(230, 230, 230, 0.49);
+    }
+
+    .modal-footer {
+        background-color: rgba(230, 230, 230, 0.49);
+    }
+
+    h2 {
+        font-family: antic didone;
+        text-align: center;
+        font-size: 150px;
+        color: white;
+    }
+
+    h3 {
+        font-family: antic didone;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-family: antic didone;
+        font-size: 15px;
+    }
+
+    p {
+        font-family: antic didone;
+        font-size: 15px;
+    }
+
+    .udsolgt {
+        color: red;
+    }
+    /** OVERSKRIFT OG TEKST SLUT **/
+
+    hr {
+        border-top: 1px solid #b4b4b4;
+    }
+
+    .footerhr {
+        border-top: 1px solid #b4b4b4;
+        width: 76vw;
+    }
+
+    .border {
+        border: solid 1px #b4b4b4;
+        width: 435px;
+        height: 470px;
+        background-color: rgba(230, 230, 230, 0.49);
+    }
+
+    body {
+        background-color: rgba(234, 234, 234, 0.21);
+    }
+
+    .border img {
+        margin-top: 20px;
+    }
+
+    .marginleft {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    /** DETALJER BUTTON **/
+
+    .btn {
+        background-color: rgba(160, 160, 160, 0.49);
+        font-family: antic didone;
+        border: rgba(160, 160, 160, 0.49);
+    }
+
+    .btn:hover {
+        background-color: rgba(113, 113, 113, 0.49);
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        border-radius: 20px;
+    }
+
+    .btn-info.focus,
+    .btn-info:focus {
+        background-color: rgba(93, 93, 93, 0.49);
+    }
+    /** DETALJER BUTTON SLUT **/
+    /** NAVBAR**/
+
+    #navbar a {
+        font-family: antic didone;
+    }
+
+    .navbar-header a {
+        font-family: antic didone;
+    }
+
+    .navbar-inverse {
+        background-color: rgba(160, 160, 160, 0.49);
+        border: none;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a {
+        background-color: rgba(8, 8, 8, 0.28);
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover {
+        color: rgba(130, 130, 130, 1);
+    }
+    /** NAVBAR SLUT**/
+
+    .pos {
+        position: absolute;
+    }
+
+    .logo {
+        width: 30vw;
+        position: relative;
+        top: 0vw;
+        left: 60vw;
+        z-index: 1;
+    }
+    /** SLIDESHOW **/
+
+    .item img {
+        width: 100vw;
+    }
+
+    #slideshow .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #slideshow .col-xs-12,
+    .col-sm-12,
+    .col-md-12,
+    .col-lg-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    /** SLIDESHOW SLUT**/
+    /** FOOTER **/
+
+    .center {
+        text-align: center;
+    }
