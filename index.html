@@ -135,15 +135,21 @@
     <div class="container">
         <div class="row">
             <!--           FORRET 1 START-->
-            <div class="col-lg-6 border marginleft">
-                <img src="imgs/small/ringbroed-druer-sm.jpg" alt="ringbrød med druer">
-                <h3>Russisk ringbrød med vindruer</h3>
-                <h4 class="kortbeskrivelse">Russisk ringbrød af Karapatisk mel.</h4>
-                <h3 style="float: left; width: 50%" class="pris">39 kr.</h3>
-                <h3 style="float: right; width: 50%; text-align: right;" class="rabat"> - Rabatpris: 19,5 kr</h3>
-                <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Se detaljer</button>
-            </div>
+            <template id="produkt_template">
+                <div class="col-lg-6 border marginleft">
+                    <img class="data_billede" src="imgs/small/ringbroed-druer-sm.jpg" alt="ringbrød med druer">
+                    <h3 class="data_navn">DATA_NAVN</h3>
+                    <h4 class="data_kortbeskrivelse">DATA_KORTBESKRIVELSE</h4>
+                    <h3 class="pris" style="float: left; width: 50%"><span class="data_pris">DATA_PRIS</span>kr.</h3>
+                    <!-- TODO: SÆT UDSOLGT CLASS VED UDSOLGT SÆT RABAT CLASS VED RABAT-->
+                    <h3 class="rabatpris" style="float: right; width: 50%; text-align: right;">- Rabatpris:<span class="data_rabatpris">DATA_RABATPRIS</span>kr.</h3>
+
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Se detaljer</button>
+                    <h3 class="udsolgttekst"> UDSOLGT</h3>
+                    <!--                SKAL KUN VISES VED UDSOGLTE-->
+                </div>
+            </template>
             <!--           FORRET 1 SLUT-->
 
             <!--           FORRET 2 START-->
